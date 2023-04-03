@@ -354,7 +354,7 @@ align-items: center;
     position: relative;
     z-index: 1;
     animation: pulsate2 2s infinite alternate;
-    top: -723px;
+    top: -800px;
     /* left: 46%; */
     margin:auto;
     width: 0;

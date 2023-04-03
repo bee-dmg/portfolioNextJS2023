@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 export default function NavBar() {
   return (
 <>
-<Navbar className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<Navbar className="navbar navbar-expand-lg navbar-light bg-light fixed-top" expand="md">
    <Container>
     <Navbar.Brand href="/">Bee Schmersal</Navbar.Brand>
    
