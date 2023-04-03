@@ -9,6 +9,7 @@ import Project from "../project"
 import projects from "@/data/projects"
 import skills from "@/data/skills"
 import Skills from "../skills"
+import Resume from "../resume"
 import About from "../about"
 import { v4 as uuidv4 } from 'uuid';
 
@@ -30,6 +31,7 @@ export default function Main() {
       <Title title={titles[2]} />
       <About />
       <Title title={titles[3]} />
+      <Resume />
     </Container>
 
 </>

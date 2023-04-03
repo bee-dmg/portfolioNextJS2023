@@ -3,6 +3,12 @@ body {
   background:#685959;
 
 }
+html{
+  height:100%;
+  background-color: #2d1a2d;
+  background-image: url("../../public/images/crystals.png");
+ 
+}
 
 #__next{
   height:100%;
@@ -106,9 +112,17 @@ height:100%;
    background-image: none;
 }
 
-.resumeDownload{
+.resumeBtn{
   display:block;
-  margin:auto;
+  width:175px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.resumeDownload{
+  display: flex;
+  justify-content: center;
+  padding-top:10px;
+  padding-bottom:200px;
   margin-bottom:100px;
 }
 .dropdown-item {
@@ -205,6 +219,7 @@ margin:auto;}
 .contactImg{
   opacity:0.75;
   filter:invert(100%);
+  height:100px;
 }
 .skill{
   text-align:center;

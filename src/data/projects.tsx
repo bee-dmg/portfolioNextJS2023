@@ -15,7 +15,7 @@ info:"Made with React.js, Redux, Bootstrap",
 description:"Squash Skateshop was built using React and Redux. Redux handles the state of the shopping cart. I am also pulling data from an array of objects and mapping/filtering the array for the various views.",
 github_url:"https://github.com/bee-dmg/skateshopReact",
 url:"http://squashskate.com",
-images:[{},{},{},{}]
+images:[{id:"2image1", url:"images/skateshop2.png"}]
 
 
 },{
@@ -25,7 +25,7 @@ info:"Made with React.js,TypeScript",
 description:"This app was made using Typescript and React. It uses the Deezer API to query your search results.  It has a light and dark theme, and will also provide you short audio previews of the tracks.",
 github_url:"https://github.com/bee-dmg/musicSearch",
 url:"https://bee.engineer/musicSearch",
-images:[{},{},{},{}]
+images:[{id:"3image1",url:"images/musicsearch.png"},{id:"3image2",url:"images/musicsearch2.png"},{id:"3image3", url:"images/musicsearch3.png"},{id:"3image4", url:"images/musicsearch4.png"},{id:"3image5", url:"images/musicsearch5.png"},{id:"3image6", url:"images/musicsearch6.png"}]
 },{
 id:4,
     name:"Weather App",
@@ -33,11 +33,8 @@ info:"Made with React.js, Bootstrap",
 description:"This Weather application uses your location to determine the weather forecast. Please turn location services on! This was built using React and Bootstrap. This app will have a different background depending on your current weather conditions, so be sure to check back!",
 github_url:"https://github.com/bee-dmg/weatherapp",
 url:"https://bee.engineer/weatherapp",
-images:[{},{}]
+images:[{id:"4image1",url:"images/weatherapp.png"}]
 
-},{
-    name:"pizza",
-    images:[]
 }];
 
 

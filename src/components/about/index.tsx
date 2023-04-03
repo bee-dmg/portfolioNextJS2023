@@ -8,20 +8,20 @@ export default function About() {
         <div className= "col-12 col-sm-6 col-md-6 col-xl-6 align-self-center">
 
           <br />
-          <a href="mailto:beeschmersal@gmail.com"><img className= "img-fluid contactImg" src="./images/mail.png" /></a> <a
+          <a href="mailto:beeschmersal@gmail.com"><img className= "social contactImg" src="./images/mail.png" /></a> <a
             href="https://www.linkedin.com/in/beeschmersal/" target="_blank"><img
-              className= "img-fluid social contactImg" src="./images/linkedin.png" /></a>
+              className= "social contactImg" src="./images/linkedin.png" /></a>
           <br /><div className= "description">
           I am always looking for new projects, and will be updating this page
           when I have more things to share.
           <br />
           <br />
-          For inquiries, you can reach me at one of the below links, whether
-          it be professional, or just catching up. I can be reached on the form below.
+          For inquiries, you can reach me by clicking the mail or LinkedIn icon above, whether
+          it be professional, or just catching up. 
         </div>
-          <div className= "col-12 description">
+          {/* <div className= "col-12 description"> */}
            
-          
+{/*           
             <form className= "jotform-form" action="https://submit.jotform.com/submit/230687020389156" method="post"
               name="form_230687020389156" id="230687020389156" acceptCharset="utf-8" autoComplete="on"><input
                 type="hidden" name="formID" value="230687020389156" /><input type="hidden" id="JWTContainer"
@@ -41,8 +41,8 @@ export default function About() {
                         className= "form-required">*</span> </label>
                     <div id="cid_8" className= "form-input-wide jf-required"> <input type="text" id="input_8"
                         name="q8_fullName" data-type="input-textbox" className= "form-textbox validate[required]"
-                        data-defaultvalue="" size="25" placeholder=" " data-component="textbox"
-                        aria-labelledby="label_8" required="" /> </div>
+                        data-defaultvalue="" size={25} placeholder=" " data-component="textbox"
+                        aria-labelledby="label_8" required={true} /> </div>
                   </li>
                   <li className= "form-line jf-required" data-type="control_email" id="id_7"><label
                       className= "form-label form-label-top form-label-auto" id="label_7" htmlFor="input_7"> E-mail<span
@@ -55,7 +55,7 @@ export default function About() {
                       className= "form-label form-label-top form-label-auto" id="label_4" htmlFor="input_4"> Message<span
                         className= "form-required">*</span> </label>
                     <div id="cid_4" className= "form-input-wide jf-required"> <textarea id="input_4"
-                        className= "form-textarea validate[required]" name="q4_message4" cols="28" rows="6"
+                        className= "form-textarea validate[required]" name="q4_message4" cols={28} rows={6}
                         data-component="textarea" required={true} aria-labelledby="label_4"></textarea> </div>
                   </li>
                   <li className= "form-line" data-type="control_button" id="id_2">
@@ -74,9 +74,9 @@ export default function About() {
                 value="230687020389156" />
               
 
-            </form>
+            </form> */}
       
-          </div>
+          {/* </div> */}
 
 
 
