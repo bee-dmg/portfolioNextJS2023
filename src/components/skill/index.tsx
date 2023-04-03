@@ -1,6 +1,6 @@
 
 
-export default function Skill({skill}) {
+export default function Skill({skill}:any) {
     const url=skill.url;
     const name=skill.name;
     return (

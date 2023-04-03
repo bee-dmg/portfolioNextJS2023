@@ -8,7 +8,7 @@ body {
   height:100%;
   background-color: #2d1a2d;
   background-image: url("../../public/images/crystals.png");
-  background-repeat:no-repeat;
+ 
 }
 a {
   color: #000000;
@@ -164,7 +164,7 @@ height:100%;
 .description{
   padding:2rem;
   color:#e3e2e2;
-  background-color:rgba(163, 164, 165, 0.274);
+  background-color:rgba(163, 164, 165, 0.6);
   margin-top: 2rem;
   margin-bottom:2rem;
 }
@@ -287,7 +287,9 @@ align-items: center;
   }
     
 
-  
+  .neonAligner{
+    margin-top:100px;
+  }
 
   @keyframes pulsate {
       
@@ -324,9 +326,9 @@ align-items: center;
 .triangle {
   margin-top: 200px;
   position: absolute;
-  top: -5px;
+  top: 75px;
   left:50%;
-  z-index: -1;
+  z-index: 1;
   width: 65px;
   animation: pulsate2 1.5s infinite alternate;
   filter: drop-shadow(0 0 0.5rem #fff) drop-shadow(0 0 2rem #a0ff33);
@@ -356,9 +358,9 @@ align-items: center;
 
   .empty {
     position: relative;
-    z-index: 1;
+    z-index: 4;
     animation: pulsate2 2s infinite alternate;
-    top: -800px;
+    top: -675px;
     /* left: 46%; */
     margin:auto;
     width: 0;
