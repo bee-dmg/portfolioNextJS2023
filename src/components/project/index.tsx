@@ -1,6 +1,6 @@
 import React from "react"
 
-
+import ProjectImg from "../projectImg"
 
 export default function Project({project}:any) {
 
@@ -12,7 +12,7 @@ export default function Project({project}:any) {
     const images = project.images
   return (
 <>
-<div className="row flex-row-reverse">
+<div className="row projectItem">
 
 <div className="col-12 col-lg-6 ">
 
@@ -21,26 +21,14 @@ export default function Project({project}:any) {
     {/* array of images from object, map over images and display them all as carousel-cells */}
              
 <div className="carousel-cell">
-             <img
-              src="images/musicsearch.png" className="transparency img-fluid imgCarousel"
-              /></div>
-            <div className="carousel-cell"><img
-              src="images/musicsearch2.png" className="transparency img-fluid imgCarousel"
-               /></div>
-            <div className="carousel-cell"><img
-              src="images/musicsearch3.png" className="transparency img-fluid imgCarousel"
-               /></div>
+    {images.map((image:any)=>{return <ProjectImg image={image} />})}
+           </div>
+           
          
-            <div className="carousel-cell"><img
-              src="images/musicsearch4.png" className="transparency img-fluid imgCarousel"
-               /></div>
+        
 
-              <div className="carousel-cell "><img
-                src="images/musicsearch5.png" className="transparency img-fluid imgCarousel"
-                  /></div>
-                <div className="carousel-cell"><img
-                  src="images/musicsearch6.png" className="transparency img-fluid imgCarousel"
-                   /></div>
+              
+                
             
               </div>
           
@@ -73,6 +61,17 @@ export default function Project({project}:any) {
               </div>
 
             </div>
+
+
+
+
+
+
+
+
+
+
+            
           </div>
 
         </div>

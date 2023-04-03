@@ -7,6 +7,8 @@ body {
 #__next{
   height:100%;
   background-color: #2d1a2d;
+  background-image: url("../../public/images/crystals.png");
+  background-repeat:no-repeat;
 }
 a {
   color: #000000;
@@ -148,6 +150,9 @@ height:100%;
   background: rgba(0, 140, 255, 0.274);
   padding: 2%;
   width: 100%;
+}
+.projectItem:nth-child(odd){
+  flex-direction:row-reverse;
 }
 
 
@@ -419,3 +424,6 @@ align-items: center;
 something like this for image carousel mosue :-moz-drag-over
 onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
 onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" */
+
+
+
