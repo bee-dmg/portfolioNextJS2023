@@ -1,11 +1,11 @@
 body {
-  height: 100vh;
+  height: 100%;
   background:#685959;
 
 }
 
 #__next{
-  height:100vh;
+  height:100%;
   background-color: #2d1a2d;
 }
 a {
@@ -415,3 +415,8 @@ align-items: center;
   height:300px;
 }
 
+/* 
+
+something like this for image carousel mosue :-moz-drag-over
+onmouseover="this.style.opacity=0.5;this.filters.alpha.opacity=50"
+onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100" */

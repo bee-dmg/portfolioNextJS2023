@@ -1,0 +1,87 @@
+import React from "react"
+
+
+
+export default function Project({project}:any) {
+
+    const name = project.name
+    const description=project.description
+    const info = project.info
+    const github_url=project.github_url
+    const url = project.url
+    const images = project.images
+  return (
+<>
+<div className="row flex-row-reverse">
+
+<div className="col-12 col-lg-6 ">
+
+
+  <div className="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+    {/* array of images from object, map over images and display them all as carousel-cells */}
+             
+<div className="carousel-cell">
+             <img
+              src="images/musicsearch.png" className="transparency img-fluid imgCarousel"
+              /></div>
+            <div className="carousel-cell"><img
+              src="images/musicsearch2.png" className="transparency img-fluid imgCarousel"
+               /></div>
+            <div className="carousel-cell"><img
+              src="images/musicsearch3.png" className="transparency img-fluid imgCarousel"
+               /></div>
+         
+            <div className="carousel-cell"><img
+              src="images/musicsearch4.png" className="transparency img-fluid imgCarousel"
+               /></div>
+
+              <div className="carousel-cell "><img
+                src="images/musicsearch5.png" className="transparency img-fluid imgCarousel"
+                  /></div>
+                <div className="carousel-cell"><img
+                  src="images/musicsearch6.png" className="transparency img-fluid imgCarousel"
+                   /></div>
+            
+              </div>
+          
+        </div>
+        <div className="col-12 col-lg-6 ">
+          <div className="row">
+            <div className="col-8">
+              <div className="bottom-left">{name}</div>
+            </div>
+            <div className="col-4">
+              <div className="top-right">{info}</div>
+            </div>
+          </div>
+          <div className="description">
+           {description} </div>
+          <div className="row">
+            <div className="col-6 col-sm-6">
+
+              <div className="github">
+                <a href={github_url} target="_blank">
+                  Github
+                </a>
+              </div>
+            </div>
+            <div className="col-6 col-sm-6">
+
+              <div className="live">
+                <a href={url} target="_blank">
+                  Live Site</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+    
+    </div>
+    
+      
+
+
+</>
+  )
+}
