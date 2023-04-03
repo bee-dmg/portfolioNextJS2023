@@ -10,7 +10,7 @@ import projects from "@/data/projects"
 import skills from "@/data/skills"
 import Skills from "../skills"
 import About from "../about"
-
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Main() {
 
@@ -23,7 +23,7 @@ export default function Main() {
       <Splash />
       <Title title={titles[0]} />
       {/* map all projects out */}
-      {projects.map((project)=>{return <Project project={project}/>})}
+      {projects.map((project)=> <Project key={uuidv4()} project={project}/>)}
       <Title title={titles[1]} />
       {/* pass along skills to be mapped out in skill comp */}
       <Skills skills={skills}/>

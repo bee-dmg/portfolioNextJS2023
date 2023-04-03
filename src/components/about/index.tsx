@@ -23,9 +23,9 @@ export default function About() {
            
           
             <form className= "jotform-form" action="https://submit.jotform.com/submit/230687020389156" method="post"
-              name="form_230687020389156" id="230687020389156" accept-charset="utf-8" autocomplete="on"><input
+              name="form_230687020389156" id="230687020389156" acceptCharset="utf-8" autoComplete="on"><input
                 type="hidden" name="formID" value="230687020389156" /><input type="hidden" id="JWTContainer"
-                value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
+                 /><input type="hidden" id="cardinalOrderNumber" />
               <div role="main" className= "form-all">
                 <ul className= "form-section page-section">
                   <li id="cid_9" className= "form-input-wide" data-type="control_head">
@@ -37,26 +37,26 @@ export default function About() {
                     </div>
                   </li>
                   <li className= "form-line jf-required" data-type="control_textbox" id="id_8"><label
-                      className= "form-label form-label-top form-label-auto" id="label_8" for="input_8"> Full Name<span
+                      className= "form-label form-label-top form-label-auto" id="label_8" htmlFor="input_8"> Full Name<span
                         className= "form-required">*</span> </label>
                     <div id="cid_8" className= "form-input-wide jf-required"> <input type="text" id="input_8"
                         name="q8_fullName" data-type="input-textbox" className= "form-textbox validate[required]"
-                        data-defaultvalue="" size="25" value="" placeholder=" " data-component="textbox"
+                        data-defaultvalue="" size="25" placeholder=" " data-component="textbox"
                         aria-labelledby="label_8" required="" /> </div>
                   </li>
                   <li className= "form-line jf-required" data-type="control_email" id="id_7"><label
-                      className= "form-label form-label-top form-label-auto" id="label_7" for="input_7"> E-mail<span
+                      className= "form-label form-label-top form-label-auto" id="label_7" htmlFor="input_7"> E-mail<span
                         className= "form-required">*</span> </label>
                     <div id="cid_7" className= "form-input-wide jf-required"> <input type="email" id="input_7"
                         name="q7_email" className= "form-textbox validate[required, Email]" data-defaultvalue="" size="25"
-                        value="" placeholder=" " data-component="email" aria-labelledby="label_7" required="" /> </div>
+                         placeholder=" " data-component="email" aria-labelledby="label_7" required={true} /> </div>
                   </li>
                   <li className= "form-line jf-required" data-type="control_textarea" id="id_4"><label
-                      className= "form-label form-label-top form-label-auto" id="label_4" for="input_4"> Message<span
+                      className= "form-label form-label-top form-label-auto" id="label_4" htmlFor="input_4"> Message<span
                         className= "form-required">*</span> </label>
                     <div id="cid_4" className= "form-input-wide jf-required"> <textarea id="input_4"
                         className= "form-textarea validate[required]" name="q4_message4" cols="28" rows="6"
-                        data-component="textarea" required="" aria-labelledby="label_4"></textarea> </div>
+                        data-component="textarea" required={true} aria-labelledby="label_4"></textarea> </div>
                   </li>
                   <li className= "form-line" data-type="control_button" id="id_2">
                     <div id="cid_2" className= "form-input-wide">
@@ -67,7 +67,7 @@ export default function About() {
                           data-component="button" data-content="">SUBMIT</button></div>
                     </div>
                   </li>
-                  <li >Should be Empty: <input type="text" name="website" value="" /></li>
+                  <li >Should be Empty: <input type="text" name="website"  /></li>
                 </ul>
               </div>
               <input type="hidden" className= "simple_spc" id="simple_spc" name="simple_spc"

@@ -1,5 +1,5 @@
 import React from "react"
-
+import { v4 as uuidv4 } from 'uuid';
 import ProjectImg from "../projectImg"
 
 export default function Project({project}:any) {
@@ -21,7 +21,7 @@ export default function Project({project}:any) {
     {/* array of images from object, map over images and display them all as carousel-cells */}
              
 <div className="carousel-cell">
-    {images.map((image:any)=>{return <ProjectImg image={image} />})}
+    {images.map((image:any)=> <ProjectImg key={uuidv4()} image={image} />)}
            </div>
            
          
