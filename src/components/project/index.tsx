@@ -17,20 +17,9 @@ export default function Project({project}:any) {
 <div className="col-12 col-lg-6 ">
 
 
-  <div className="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-    {/* array of images from object, map over images and display them all as carousel-cells */}
-             
-<div className="carousel-cell">
-    {images.map((image:any)=> <ProjectImg key={uuidv4()} image={image} />)}
-           </div>
-           
-         
-        
 
-              
-                
-            
-              </div>
+    <ProjectImg key={uuidv4()} images={images} />
+        
           
         </div>
         <div className="col-12 col-lg-6 ">
