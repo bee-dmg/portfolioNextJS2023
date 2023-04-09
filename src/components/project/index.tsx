@@ -23,6 +23,8 @@ export default function Project({project}:any) {
           
         </div>
         <div className="col-12 col-lg-6 ">
+        
+          <div className="description">
           <div className="row">
             <div className="col-8">
               <div className="bottom-left">{name}</div>
@@ -31,7 +33,6 @@ export default function Project({project}:any) {
               <div className="top-right">{info}</div>
             </div>
           </div>
-          <div className="description">
            {description} </div>
           <div className="row">
             <div className="col-6 col-sm-6">

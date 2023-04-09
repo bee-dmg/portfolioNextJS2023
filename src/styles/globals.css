@@ -68,12 +68,13 @@ a:visited {
   padding-bottom: 0.75rem;
 }
 .top-right {
- 
-  background-color: #e3e2e2;
-  color: black;
-  padding: 1rem;
+ transform:scale(0.75) translateY(-1rem);
+border-radius:5px;
+  background-color: rgba(23, 45, 66, 0.8);
   
-
+  color: rgb(248, 220, 247);
+  padding: 2rem;
+margin-top:0px;
   width:100%;
   font-size: 0.75rem;
   height:100%;
@@ -84,17 +85,18 @@ a:visited {
 .bottom-left {
 
 height:100%;
-
+position:relative;
   background-color: rgba(17, 78, 170, 0.8);
-  
+  top:10px;
   color: white;
   margin:2rem;
+  margin-top:2rem;
   margin-left:0rem;
   padding:0.5rem;
-  width:75%;
-  height:70%;
+  width:100%;
+  height:60%;
   border-radius:5px;
-  margin-bottom: 0.25rem;
+  margin-top:auto;
   font-size: 1.75rem;
 
   overflow:auto;
@@ -177,14 +179,14 @@ height:100%;
 
 .description{
   padding:2rem;
-  color:#e3e2e2;
-  background-color:rgba(163, 164, 165, 0.6);
+  /* color:#e1e0e0; */
+  background-color:rgba(228, 229, 231, 0.8);
   margin-top: 2rem;
   margin-bottom:2rem;
 }
 
 .live{
-  background-color:#acf8da;
+  background-color:rgba(171, 248, 217,0.8);
   
   font-weight:bold;
 width:7rem;
@@ -195,7 +197,7 @@ text-decoration:underline;
   margin:auto;
   margin-bottom:2rem;
 }
-.github{  background-color:#f0dbfe;
+.github{  background-color:rgba(240, 219, 254,0.8);
   font-weight:bold;
   width:7rem;
   text-decoration:underline;
