@@ -71,7 +71,7 @@ a:visited {
  transform:scale(0.75) translateY(-1rem);
 border-radius:5px;
   background-color: rgba(23, 45, 66, 0.8);
-  
+ text-align:center;
   color: rgb(248, 220, 247);
   padding: 2rem;
 margin-top:0px;
@@ -184,9 +184,12 @@ position:relative;
   margin-top: 2rem;
   margin-bottom:2rem;
 }
+.buttonRow{
+  padding-top:2rem;
+}
 
 .live{
-  background-color:rgba(171, 248, 217,0.8);
+  background-color:rgba(188, 247, 224, 0.6);
   
   font-weight:bold;
 width:7rem;
@@ -197,7 +200,7 @@ text-decoration:underline;
   margin:auto;
   margin-bottom:2rem;
 }
-.github{  background-color:rgba(240, 219, 254,0.8);
+.github{  background-color:rgba(212, 160, 246, 0.6);
   font-weight:bold;
   width:7rem;
   text-decoration:underline;

@@ -26,15 +26,14 @@ export default function Project({project}:any) {
         
           <div className="description">
           <div className="row">
-            <div className="col-8">
+            <div className="col-12 col-sm-8">
               <div className="bottom-left">{name}</div>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-xs-6 col-sm-4">
               <div className="top-right">{info}</div>
             </div>
           </div>
-           {description} </div>
-          <div className="row">
+           {description}  <div className="row buttonRow">
             <div className="col-6 col-sm-6">
 
               <div className="github">
@@ -62,7 +61,8 @@ export default function Project({project}:any) {
 
 
             
-          </div>
+          </div></div>
+          
 
         </div>
     
