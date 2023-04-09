@@ -21,7 +21,7 @@ images:[{id:"2image1", url:"images/skateshop2.png"}]
 },{
     id:3,
     name:"Music Search App", 
-info:"Made with React.js,TypeScript",
+info:"Made with React.js, TypeScript",
 description:"This app was made using Typescript and React. It uses the Deezer API to query your search results.  It has a light and dark theme, and will also provide you short audio previews of the tracks.",
 github_url:"https://github.com/bee-dmg/musicSearch",
 url:"https://bee.engineer/musicSearch",
