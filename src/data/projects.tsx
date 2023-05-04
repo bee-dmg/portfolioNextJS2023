@@ -38,7 +38,7 @@ images:[{id:"4image1",url:"images/weatherapp.png"}]
 },{
 id:5,
     name:"Magic The Gathering App",
-info:"Javascript, Bootstrap",
+info:"Made with Javascript, Bootstrap",
 description:"This is an application that can help you keep track of the score in a Magic the Gathering match. I used Javascript and Bootstrap to put this together.",
 github_url:"https://github.com/bee-dmg/Magic",
 url:"https://bee.surf/Magic",
