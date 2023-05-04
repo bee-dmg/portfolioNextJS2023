@@ -8,7 +8,16 @@ url:"https://slantyard.com/?guest@g.com|guest0",
 images:[{id:"1image1",url:"images/slantyard.png"},{id:"1image2",url:"images/slantyard1.png"},{id:"1image3",url:"images/slantyard2.png"},{id:"1image4",url:"images/slantyard3.png"},{id:"1image5",url:"images/slantyard4.png"}]
 
 
-},{
+},
+{    id:1.1,
+    name:"Mnemozyne - V-Pet Tracker",
+    info:"Made with React.js",
+    description:"This was made in a few days that I between classes to track how many times you messed up one of those popular virtual pets from the 90's. The goal was to create a application that required minimal commitment from the end user, so I used the json/text system that is implemented.",
+    github_url:"https://github.com/bee-dmg/mnemosyne",
+    url:"https://bee.surf/mnemozyne/",
+    images:[{id:"1image1",url:"images/mnemozyne.png"}]
+    },
+{
 id:2,
     name:"Squash Skateshop",
 info:"Made with React.js, Redux, Bootstrap",
