@@ -69,7 +69,7 @@ export default function ProjectImg({ images }: any) {
 if(images.length=1){
   return(
   <div> {images.map((image: any) => {
-    return (<div className="keen-slider__slide imgCarousel" key={image.id}><Image src={"/" + image.url}  alt={image.name} 
+    return (<div className="keen-slider__slide imgCarousel" key={image.id}><Image loader={loaderProp} src={"/" + image.url}  alt={image.name} 
     layout="fill"
     objectFit="contain" /></div>)
   })}
