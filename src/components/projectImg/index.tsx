@@ -1,7 +1,18 @@
-import Image from "next/image"
+import Image from "next/image";
+
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
+
+
+
+
+
 export default function ProjectImg({ images }: any) {
+
+
+  const loaderProp =({ src }:any) => {
+    return src;
+}
   const [sliderRef] = useKeenSlider<HTMLDivElement>(
     {
       loop: true,
@@ -45,7 +56,7 @@ export default function ProjectImg({ images }: any) {
 
         <div ref={sliderRef} className="keen-slider">
           {images.map((image: any) => {
-            return (<div className="keen-slider__slide imgCarousel" key={image.id}><Image src={"/" + image.url}  alt={image.name} 
+            return (<div className="keen-slider__slide imgCarousel" key={image.id}><Image loader={loaderProp} src={"/" + image.url}  alt={image.name} 
             layout="fill"
             objectFit="contain" /></div>)
           })}
