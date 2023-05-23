@@ -10,7 +10,7 @@ images:[{id:"1image1",url:"images/slantyard.png"},{id:"1image2",url:"images/slan
 
 },
 {    id:1.1,
-    name:"Mnemozyne - V-Pet Tracker",
+    name:"V-Pet Tracker",
     info:"Made with React.js",
     description:"This was made in a few days that I between classes to track how many times you messed up one of those popular virtual pets from the 90's. The goal was to create a application that required minimal commitment from the end user, so I used the json/text system that is implemented.",
     github_url:"https://github.com/bee-dmg/mnemosyne",
